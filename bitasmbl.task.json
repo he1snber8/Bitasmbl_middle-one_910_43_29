@@ -9,20 +9,22 @@
     {
       "file": "Backend/Models/SomeModel.cs",
       "requirementId": 931,
-      "lastModified": "2026-09-30T11:41:50.824Z",
+      "lastModified": "2026-09-30T11:47:59.499Z",
       "activity": {
-        "editEvents": 3,
-        "activeDurationSec": 173,
+        "editEvents": 5,
+        "activeDurationSec": 541,
         "idleBreaks": 0,
-        "medianEditIntervalSec": 86.5,
+        "medianEditIntervalSec": 158,
         "intervalSamples": [
           11,
-          162
+          162,
+          154,
+          214
         ]
       },
       "diffStats": {
-        "linesAdded": 34,
-        "linesDeleted": 0
+        "linesAdded": 1,
+        "linesDeleted": 1
       },
       "sourceHints": {
         "possiblePaste": false,
