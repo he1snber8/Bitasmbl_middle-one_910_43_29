@@ -13,6 +13,7 @@ public class Objective
 {
     public int Name { get; set; }
     public string Assignee { get; set; }
+    public string Assignee2 { get; set; }
 }
 public enum Status
 {
