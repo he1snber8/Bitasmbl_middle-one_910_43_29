@@ -12,7 +12,6 @@ public class TaskModel
 public class Objective
 {
     public int Name { get; set; }
-
     public string Assignee { get; set; }
 }
 public enum Status
