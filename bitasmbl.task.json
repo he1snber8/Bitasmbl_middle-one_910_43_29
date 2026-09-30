@@ -9,18 +9,20 @@
     {
       "file": "Backend/Models/SomeModel.cs",
       "requirementId": 931,
-      "lastModified": "2026-09-30T12:15:07.962Z",
+      "lastModified": "2026-09-30T12:48:47.716Z",
       "activity": {
-        "editEvents": 6,
-        "activeDurationSec": 841,
-        "idleBreaks": 1,
+        "editEvents": 8,
+        "activeDurationSec": 1151,
+        "idleBreaks": 2,
         "medianEditIntervalSec": 162,
         "intervalSamples": [
           11,
           162,
           154,
           214,
-          1628
+          1628,
+          10,
+          2009
         ]
       },
       "diffStats": {

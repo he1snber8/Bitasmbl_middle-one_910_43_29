@@ -8,6 +8,7 @@ public class TaskModel
     public Priority Priority { get; set; }
     public List<Objective> Objectives { get; set; }
     public List<Objective> Objectives2 { get; set; }
+    public List<Objective> Objectives3 { get; set; }
 }
 
 public class Objective
