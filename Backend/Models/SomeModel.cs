@@ -7,15 +7,13 @@ public class TaskModel
     public Status Status { get; set; }
     public Priority Priority { get; set; }
     public List<Objective> Objectives { get; set; }
-    public List<Objective> Objectives2 { get; set; }
-    public List<Objective> Objectives3 { get; set; }
-    public List<Objective> Objectives4 { get; set; }
 }
 
 public class Objective
 {
     public int Name { get; set; }
-    public int Name { get; set; }
+
+    public string Assignee { get; set; }
 }
 public enum Status
 {
