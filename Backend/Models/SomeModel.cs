@@ -20,7 +20,6 @@ public enum Status
     Vacant,
     Draft,
     Active,
-
     Completed
 }
 public enum Priority
