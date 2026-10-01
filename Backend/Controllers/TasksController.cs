@@ -26,8 +26,6 @@ public class TasksController() : ControllerBase
                 Objectives = taskModel.Objectives
             };
 
-
-
             return Ok("created!");
         }
         catch (Exception e)
