@@ -14,9 +14,10 @@ public class UsersController() : Controller
 
 
 
-            return Ok("Registered yay!");
+
+            return Ok("I Dreameed it all");
         }
-        catch (EmailAlreadyExistsException ex)
+        catch (EmailAlreadyExistsExcfeption ex)
         {
             logger.LogError("{Date}: Email already registered redirecting to log in: {errorMessage}", DateTime.Now,
                 ex.Message);
