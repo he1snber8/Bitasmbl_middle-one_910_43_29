@@ -3,32 +3,22 @@
   "projectApplicationId": 43,
   "requirementId": 932,
   "files": [
-    "Backend/Controllers/TasksController.cs"
+    "Backend/Controllers/UsersController.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Controllers/TasksController.cs",
+      "file": "Backend/Controllers/UsersController.cs",
       "requirementId": 932,
-      "lastModified": "2026-10-01T08:49:30.918Z",
+      "lastModified": "2026-10-01T09:05:08.447Z",
       "activity": {
-        "editEvents": 10,
-        "activeDurationSec": 1000,
-        "idleBreaks": 2,
-        "medianEditIntervalSec": 26,
-        "intervalSamples": [
-          4,
-          12,
-          7,
-          66,
-          22,
-          555,
-          263,
-          26,
-          1420
-        ]
+        "editEvents": 1,
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "medianEditIntervalSec": 0,
+        "intervalSamples": []
       },
       "diffStats": {
-        "linesAdded": 1,
+        "linesAdded": 53,
         "linesDeleted": 0
       },
       "sourceHints": {
