@@ -6,7 +6,7 @@ public class UsersController() : Controller
 {
 
     [HttpPost("register")]
-    public async Task<IActionResult> RegisterRecruiter([FromBody] )
+    public async Task<IActionResult> RegisterRecruiter([FromBody] SomeRequestModel someRequestModel)
     {
         try
         {
@@ -15,7 +15,7 @@ public class UsersController() : Controller
 
 
 
-            return Ok("I Dreameed it all");
+            return Ok("I Dreameed it all, drop the ball!");
         }
         catch (EmailAlreadyExistsExcfeption ex)
         {
