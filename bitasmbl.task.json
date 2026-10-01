@@ -9,12 +9,12 @@
     {
       "file": "Backend/Controllers/TasksController.cs",
       "requirementId": 932,
-      "lastModified": "2026-10-01T08:25:23.875Z",
+      "lastModified": "2026-10-01T08:49:30.918Z",
       "activity": {
-        "editEvents": 8,
-        "activeDurationSec": 674,
-        "idleBreaks": 1,
-        "medianEditIntervalSec": 22,
+        "editEvents": 10,
+        "activeDurationSec": 1000,
+        "idleBreaks": 2,
+        "medianEditIntervalSec": 26,
         "intervalSamples": [
           4,
           12,
@@ -22,7 +22,9 @@
           66,
           22,
           555,
-          263
+          263,
+          26,
+          1420
         ]
       },
       "diffStats": {
