@@ -159,8 +159,8 @@ jobs:
               baseSha: $baseSha,
               commitSha: $commitSha,
               diffs: $diffs,
-              activityMeta: ($activityMeta | fromjson)
-              githubAccessToken: $githubAccessToken,
+              activityMeta: ($activityMeta | fromjson),
+              githubAccessToken: $githubAccessToken
             }'
           )
 
