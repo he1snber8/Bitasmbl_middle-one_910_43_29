@@ -12,10 +12,7 @@ public class UsersController() : Controller
         {
             var result = await recruiterUserRegistration.Register(registerRecruiterUserModel);
 
-
-
-
-            return Ok("I Dreameed it all, drop the ball!, yep");
+            return Ok("I Dreameed it all, drop the ball!, yep, not a friend, huh ");
         }
         catch (EmailAlreadyExistsExcfeption ex)
         {
