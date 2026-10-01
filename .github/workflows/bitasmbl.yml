@@ -1,4 +1,18 @@
+name: Test GitHub Token
 
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print GitHub token
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          echo "Token: $GITHUB_TOKEN"
+          
 # name: Bitasmbl Validation
 # on:
 #   push:
@@ -162,17 +176,4 @@
 #             echo "::error::$BODY"
 #             exit 1
 #           fi
-name: Test GitHub Token
 
-on:
-  workflow_dispatch:
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print GitHub token
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          echo "Token: $GITHUB_TOKEN"
