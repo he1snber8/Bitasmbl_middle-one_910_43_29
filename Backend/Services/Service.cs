@@ -42,5 +42,6 @@ public enum EventType
 {
     Booking,
     Cancelation,
-    Draft
+    Draft,
+    Remove
 }
