@@ -23,7 +23,14 @@ public class TasksController() : ControllerBase
                 DueDate = taskModel.DueDate,
                 Status = taskModel.Status,
                 Priority = taskModel.Priority,
-                Objectives = taskModel.Objectives
+                Objectives = taskModel.Objective
+
+
+
+
+
+
+
 
 
             };
