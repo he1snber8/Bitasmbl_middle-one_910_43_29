@@ -44,5 +44,5 @@ public enum EventType
     Cancelation,
     Draft,
     Remove,
-    OutsideTweakin
+    OutsideTweaking
 }
