@@ -21,7 +21,7 @@ public class BookingInitializer(
             Developer = developer,
             ProjectId = request.ProjectId,
             Status = CalendlyBookingStatus.Pending,
-            EventType = "Booking, im flyin"
+            EventType = EventType.Booking
         };
 
         calendlyBookingRepository.Insert(booking);
@@ -36,4 +36,10 @@ public class BookingInitializationRequest : IRequest<Unit>
 {
     public string InviteeDeveloperId { get; set; }
     public int ProjectId { get; set; }
+}
+
+public enum EventType
+{
+    Booking,
+    Cancelation
 }
