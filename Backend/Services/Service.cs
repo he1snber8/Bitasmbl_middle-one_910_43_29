@@ -21,7 +21,7 @@ public class BookingInitializer(
             Developer = developer,
             ProjectId = request.ProjectId,
             Status = CalendlyBookingStatus.Pending,
-            EventType = "Booking"
+            EventType = "Bookingeeee"
         };
 
         calendlyBookingRepository.Insert(booking);
