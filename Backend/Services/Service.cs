@@ -43,5 +43,6 @@ public enum EventType
     Booking,
     Cancelation,
     Draft,
-    Remove
+    Remove,
+    OutsideTweakin
 }
