@@ -41,5 +41,6 @@ public class BookingInitializationRequest : IRequest<Unit>
 public enum EventType
 {
     Booking,
-    Cancelation
+    Cancelation,
+    Draft
 }
