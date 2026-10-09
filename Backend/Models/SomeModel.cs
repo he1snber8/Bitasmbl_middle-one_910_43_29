@@ -29,5 +29,6 @@ public enum Priority
     High,
 
     Extra,
-    Lol
+    Lol,
+    Ok
 }
