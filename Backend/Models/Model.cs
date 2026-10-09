@@ -5,4 +5,5 @@ public class Lol
     public int ThatPart { get; set; }
     public string CallMyPhoneBaby { get; set; }
     public string Daaaamn { get; set; }
+    public string BeepBeepBaby { get; set; }
 }
