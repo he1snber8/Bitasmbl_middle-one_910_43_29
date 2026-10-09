@@ -7,4 +7,5 @@ public class Lol
     public string Daaaamn { get; set; }
     public string BeepBeepBaby { get; set; }
     public string ReachMeBaby { get; set; }
+    public string KissinALot { get; set; }
 }
