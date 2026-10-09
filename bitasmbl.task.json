@@ -3,45 +3,25 @@
   "projectApplicationId": 43,
   "requirementId": 931,
   "files": [
-    "Backend/Models/Model.cs",
-    "Backend/Models/SomeModel.cs"
+    "Backend/Models/Model.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Models/SomeModel.cs",
+      "file": "Backend/Models/Model.cs",
       "requirementId": 931,
-      "lastModified": "2026-10-09T17:08:06.464Z",
+      "lastModified": "2026-10-09T17:21:06.940Z",
       "activity": {
-        "editEvents": 2,
-        "activeDurationSec": 159,
-        "idleBreaks": 0,
+        "editEvents": 3,
+        "activeDurationSec": 361,
+        "idleBreaks": 1,
         "intervalSamples": [
-          159
+          667,
+          61
         ],
-        "medianEditIntervalSec": 159
+        "medianEditIntervalSec": 364
       },
       "diffStats": {
         "linesAdded": 2,
-        "linesDeleted": 1
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": false
-      }
-    },
-    {
-      "file": "Backend/Models/Model.cs",
-      "requirementId": 931,
-      "lastModified": "2026-10-09T17:08:57.958Z",
-      "activity": {
-        "editEvents": 1,
-        "activeDurationSec": 0,
-        "idleBreaks": 0,
-        "intervalSamples": [],
-        "medianEditIntervalSec": 0
-      },
-      "diffStats": {
-        "linesAdded": 4,
         "linesDeleted": 0
       },
       "sourceHints": {
