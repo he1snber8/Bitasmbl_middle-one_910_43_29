@@ -1,39 +1,24 @@
 {
   "projectApplicationLinkedRepoId": 29,
   "projectApplicationId": 43,
-  "requirementId": 933,
+  "requirementId": 931,
   "files": [
-    "Backend/Services/Service.cs"
+    "Backend/Models/SomeModel.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Services/Service.cs",
-      "requirementId": 933,
-      "lastModified": "2026-10-04T18:52:03.680Z",
+      "file": "Backend/Models/SomeModel.cs",
+      "requirementId": 931,
+      "lastModified": "2026-10-09T17:05:26.520Z",
       "activity": {
-        "editEvents": 15,
-        "activeDurationSec": 2324,
-        "idleBreaks": 7,
-        "intervalSamples": [
-          20,
-          141,
-          37,
-          16,
-          2,
-          484,
-          364,
-          351,
-          4,
-          1422,
-          388,
-          4,
-          1227,
-          1287
-        ],
-        "medianEditIntervalSec": 246
+        "editEvents": 1,
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "intervalSamples": [],
+        "medianEditIntervalSec": 0
       },
       "diffStats": {
-        "linesAdded": 1,
+        "linesAdded": 4,
         "linesDeleted": 1
       },
       "sourceHints": {
