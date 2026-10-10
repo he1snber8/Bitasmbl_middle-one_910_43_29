@@ -1,31 +1,25 @@
 {
   "projectApplicationLinkedRepoId": 29,
   "projectApplicationId": 43,
-  "requirementId": 931,
+  "requirementId": 933,
   "files": [
-    "Backend/Models/AdditionalModel.cs"
+    "Backend/Services/Service.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Models/AdditionalModel.cs",
-      "requirementId": 931,
-      "lastModified": "2026-10-10T09:50:16.969Z",
+      "file": "Backend/Services/Service.cs",
+      "requirementId": 933,
+      "lastModified": "2026-10-10T12:09:22.201Z",
       "activity": {
-        "editEvents": 6,
-        "activeDurationSec": 437,
-        "idleBreaks": 1,
-        "intervalSamples": [
-          5,
-          118,
-          3663,
-          9,
-          5
-        ],
-        "medianEditIntervalSec": 9
+        "editEvents": 1,
+        "activeDurationSec": 0,
+        "idleBreaks": 0,
+        "intervalSamples": [],
+        "medianEditIntervalSec": 0
       },
       "diffStats": {
-        "linesAdded": 1,
-        "linesDeleted": 0
+        "linesAdded": 0,
+        "linesDeleted": 1
       },
       "sourceHints": {
         "possiblePaste": false,
