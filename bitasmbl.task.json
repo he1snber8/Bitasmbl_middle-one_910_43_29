@@ -3,32 +3,25 @@
   "projectApplicationId": 43,
   "requirementId": 931,
   "files": [
-    "Backend/Models/Model.cs"
+    "Backend/Models/AdditionalModel.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Models/Model.cs",
+      "file": "Backend/Models/AdditionalModel.cs",
       "requirementId": 931,
-      "lastModified": "2026-10-09T17:50:37.893Z",
+      "lastModified": "2026-10-10T08:48:58.446Z",
       "activity": {
-        "editEvents": 10,
-        "activeDurationSec": 1343,
-        "idleBreaks": 3,
+        "editEvents": 3,
+        "activeDurationSec": 123,
+        "idleBreaks": 0,
         "intervalSamples": [
-          667,
-          61,
-          1083,
           5,
-          103,
-          302,
-          9,
-          77,
-          188
+          118
         ],
-        "medianEditIntervalSec": 103
+        "medianEditIntervalSec": 61.5
       },
       "diffStats": {
-        "linesAdded": 1,
+        "linesAdded": 4,
         "linesDeleted": 0
       },
       "sourceHints": {
