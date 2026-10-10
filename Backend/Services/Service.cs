@@ -1,10 +1,10 @@
 namespace Project_Backend_2024.Services.CommandServices.Calendly;
 
+
+
 public class BookingInitializer(
     IHttpContextAccessor httpContextAccessor,
-    UserManager<User> userManager,
-    ICalendlyBookingRepository calendlyBookingRepository,
-    IUnitOfWork unitOfWork) : IRequestHandler<BookingInitializationRequest, Unit>
+    IUnitOfWork unitOfWork) : IBookingInitializer
 {
 
     public async Task<Unit> Handle(BookingInitializationRequest request, CancellationToken cancellationToken)
