@@ -13,6 +13,8 @@ public class BookingInitializer(
                           ?? throw new UserNotFoundException();
 
         var recruiter = await userManager.FindByIdAsync(recruiterId);
+
+
         var developer = await userManager.FindByIdAsync(request.InviteeDeveloperId);
 
         var booking = new CalendlyBooking
