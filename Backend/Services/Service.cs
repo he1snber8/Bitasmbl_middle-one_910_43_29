@@ -17,6 +17,8 @@ public class BookingInitializer(
 
         var developer = await userManager.FindByIdAsync(request.InviteeDeveloperId);
 
+
+
         var booking = new CalendlyBooking
         {
             Recruiter = recruiter,
