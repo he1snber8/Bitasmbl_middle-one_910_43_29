@@ -27,7 +27,6 @@ public enum Priority
     Low,
     Medium,
     High,
-
     Extra,
     Lol,
     Ok
