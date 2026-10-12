@@ -3,26 +3,26 @@
   "projectApplicationId": 43,
   "requirementId": 931,
   "files": [
-    "Backend/Models/SomeModel.cs"
+    "Backend/Models/TaskModel.cs"
   ],
   "activityMeta": [
     {
-      "file": "Backend/Models/SomeModel.cs",
+      "file": "Backend/Models/TaskModel.cs",
       "requirementId": 931,
-      "lastModified": "2026-10-09T17:09:08.823Z",
+      "lastModified": "2026-10-12T16:56:11.187Z",
       "activity": {
         "editEvents": 3,
-        "activeDurationSec": 221,
+        "activeDurationSec": 187,
         "idleBreaks": 0,
         "intervalSamples": [
-          159,
-          62
+          187,
+          0
         ],
-        "medianEditIntervalSec": 110.5
+        "medianEditIntervalSec": 93.5
       },
       "diffStats": {
-        "linesAdded": 2,
-        "linesDeleted": 1
+        "linesAdded": 31,
+        "linesDeleted": 0
       },
       "sourceHints": {
         "possiblePaste": false,
